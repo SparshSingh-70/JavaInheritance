@@ -16,6 +16,8 @@ public class TesterMain {
 		Scanner sc = new Scanner(System.in);
 		Account [] acc = new Account [10];
 		
+System.out.println("Welcome to the Account Management App");
+
 		int accCount = 0;
 		int choice = 0;
 		
