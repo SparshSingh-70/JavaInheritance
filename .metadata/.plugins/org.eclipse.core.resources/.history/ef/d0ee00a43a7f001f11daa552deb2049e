@@ -1,0 +1,11 @@
+package com.cdac.acts.tester;
+
+import com.cdac.acts.imple.DrawInterface;
+import com.cdac.acts.shapes.CircleShape;
+
+public class TesterMain {
+	public static void main(String[] args) {
+		CircleShape cs = new CircleShape();
+		cs.draw();
+	}
+}

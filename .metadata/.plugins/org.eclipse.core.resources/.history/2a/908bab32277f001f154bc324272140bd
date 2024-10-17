@@ -1,0 +1,22 @@
+package com.cdac.acts.tester;
+
+import java.util.Scanner;
+
+import com.cdac.acts.list.ListFixed;
+
+public class TesterMain {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		
+		ListFixed fl = new ListFixed();
+		for(int i = 0 ; i < 5; i++) {
+			System.out.println("Enter Element: ");
+			int ele = sc.nextInt(); 
+			fl.insert(ele);
+		}
+		
+		for(int i = 0 ; i < 5; i++) {
+			System.out.println(fl.retrieve(i));
+		}
+	}
+}

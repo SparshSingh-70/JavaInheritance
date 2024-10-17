@@ -1,0 +1,7 @@
+package com.cdac.acts.exception;
+
+public class ArrayException {
+	public ArrayException() {
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.cdac.acts.classes;
+
+public class DerivedClass extends BaseClass {
+	
+	@Override
+	public Integer getNumber(Integer a) {
+		return a;
+	}
+	
+	public void printNum(Number a) {
+		System.out.println("Number is "+ a);
+	}
+}

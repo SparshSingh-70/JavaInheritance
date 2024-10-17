@@ -1,0 +1,34 @@
+package com.cdac.acts.list;
+
+import com.cdac.acts.implement.MyList;
+
+public class ListFixed implements MyList {
+	
+	private final int size ;
+	private int currIndex;
+	private int arr[];
+	
+	 public ListFixed() {
+		this.currIndex = 0;
+		this.size = 5;
+		this.arr = new int [size];
+	}
+
+	@Override
+	public void insert(int element) {
+		if(currIndex < 0  && currIndex > size-1 ) {
+			System.out.println("List full");
+			return;
+		}
+		
+	}
+
+	@Override
+	public int retrieve(int index) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+		
+	
+
+}

@@ -1,0 +1,7 @@
+package com.cdac.acts.list;
+
+public class ListGrowable {
+	private int size;
+	private int currIndex;
+	private int arr[];
+}

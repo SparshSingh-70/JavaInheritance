@@ -1,0 +1,7 @@
+package com.cdac.acts.implement;
+
+@FunctionalInterface
+public interface Withdrawable throws Exception {
+	double withdrawAmount(double amount);
+	
+}

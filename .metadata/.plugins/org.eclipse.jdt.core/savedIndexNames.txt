@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+D:\BATCH 2 JAVA\Batch2JAVA\CoreJAVA\Day 8 & 9 Interface and Exception\.metadata\.plugins\org.eclipse.jdt.core
+886457862.index
+183333622.index
+959606324.index
+3767755316.index
+1865797976.index

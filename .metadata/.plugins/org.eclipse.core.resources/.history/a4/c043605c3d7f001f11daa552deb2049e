@@ -1,0 +1,12 @@
+package com.cdac.acts.classes;
+
+public class DerivedClass extends BaseClass {
+		
+	public Integer printNumber(Integer a) {
+		return a;
+	}
+	
+	public void printNum(Short a) {
+		System.out.println("Number is "+ a);
+	}
+}

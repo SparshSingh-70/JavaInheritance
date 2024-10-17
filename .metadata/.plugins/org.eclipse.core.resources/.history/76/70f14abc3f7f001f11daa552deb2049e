@@ -1,0 +1,16 @@
+package com.cdac.acts.tester;
+import com.cdac.acts.classes.*;
+
+public class TestMain {
+	public static void main(String[] args) {
+		
+		BaseClass b = new DerivedClass();
+		Number cc = new Number(4);
+		Short c = (Short)b.getNumber(cc);
+		
+		b.printNum(c);
+	}
+	
+	
+	
+}

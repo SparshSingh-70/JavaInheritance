@@ -1,0 +1,7 @@
+package com.cdac.acts.implement;
+
+@FunctionalInterface
+public interface Withdrawable  {
+	double withdrawAmount(double amount);
+	
+}

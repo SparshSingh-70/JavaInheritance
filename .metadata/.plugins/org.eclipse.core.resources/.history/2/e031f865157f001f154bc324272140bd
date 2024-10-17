@@ -1,0 +1,8 @@
+package com.cdac.acts.exception;
+
+public class MinimumBalanceExpection extends Exception {
+	
+		public MinimumBalanceExpection(String msg) {
+			super(msg);
+		}
+}

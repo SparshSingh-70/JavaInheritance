@@ -1,0 +1,19 @@
+package com.cdac.acts.list;
+
+import com.cdac.acts.implement.MyList;
+
+public class ListFixed implements MyList {
+	
+	private final int size ;
+	private int currIndex;
+	private int arr[];
+	
+	public public ListFixed() {
+		this.currIndex = 0;
+		this.size = 5;
+		this.arr = new arr[size];
+	}
+		
+	
+
+}

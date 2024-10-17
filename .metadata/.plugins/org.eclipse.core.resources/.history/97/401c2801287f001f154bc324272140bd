@@ -1,0 +1,6 @@
+package com.cdac.acts.implement;
+
+public interface MyList {
+	void insert(int element);
+	int retrieve(int index);
+}

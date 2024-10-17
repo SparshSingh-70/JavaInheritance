@@ -1,0 +1,9 @@
+package com.cdac.acts.tester;
+import com.cdac.acts.classes.*;
+
+public class TestMain {
+	
+	BaseClass b = new DerivedClass();
+	b.printNum(4);
+	
+}
